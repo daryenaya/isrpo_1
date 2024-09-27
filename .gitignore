@@ -1,0 +1,30 @@
+# Общие временные файлы
+*.log          # Логи
+*.tmp          # Временные файлы
+*.temp         # Временные файлы
+*.bak          # Резервные копии
+*.swp          # Временные файлы Vim
+*.swo          # Временные файлы Vim
+
+# Для Python
+__pycache__/   # Кешированные файлы Python
+*.py[cod]      # Компилированные файлы Python
+
+# Для Node.js
+node_modules/  # Зависимости Node.js
+npm-debug.log  # Логи NPM
+
+# Для Visual Studio
+.vs/           # Конфигурация Visual Studio
+*.suo          # Пользовательские настройки Visual Studio
+
+# Для JetBrains IDE (например, IntelliJ, PyCharm)
+.idea/         # Конфигурация IDE
+*.iml          # Файлы модулей
+
+# macOS
+.DS_Store      # Системные файлы macOS
+
+# Windows
+Thumbs.db      # Системные файлы Windows
+ehthumbs.db    # Системные файлы Windows
