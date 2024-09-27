@@ -20,7 +20,7 @@ double tangentMethod(double initialGuessA, double initialGuessB, double epsilon,
 
     // Проверка знаков функции на концах интервала
     if (equation(xA) * equation(xB) > 0) {
-        cerr << "Ошибка: функция должна менять знак на концах интервала." << endl;
+        cerr << "Ошибка: функция должна менять знак на концах интервала!" << endl;
         return numeric_limits<double>::quiet_NaN();
     }
 
@@ -30,7 +30,7 @@ double tangentMethod(double initialGuessA, double initialGuessB, double epsilon,
         double f_prime_xA = derivative(xA);
 
         if (abs(f_prime_xA) < 1e-10) {
-            cerr << "Деление на ноль. Метод касательных не применим." << endl;
+            cerr << "Деление на ноль. Метод касательных не применим!" << endl;
             return numeric_limits<double>::quiet_NaN();
         }
 
